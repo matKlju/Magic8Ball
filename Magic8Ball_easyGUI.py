@@ -1,13 +1,20 @@
+
+
+'''
+Magic 8 - ball game. GUI
+
+The aim of this exercise is to use a proper file handling method.
+Automatically closing it after use
+Also to practice implementing GUI for fun
+
+'''
+
 import random
 from easygui import*
 
-'''
-applying GUI
 
-'''
-
-# with the open function the file will be autom. closed
-with open('answers.txt') as lines:
+# with and the open function the file will be autom. closed
+with open('answers.txt') as lines
     # converting answers to a list
     answers = [i.strip() for i in lines]
 
